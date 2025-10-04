@@ -1,3 +1,28 @@
+# AI-Powered Medical Report Simplifier (Backend)
+
+This project is a **FastAPI-based backend** that takes medical reports (text or image) and produces **patient-friendly explanations**. It performs OCR for scanned images, normalizes test results, and generates summaries dynamically.
+
+---
+
+## 📂 Project Structure
+
+medical-report-simplifier/
+│── app.py # FastAPI main application
+│── requirements.txt # Python dependencies
+│── utils/
+│ ├── normalize.py # Reference ranges & test normalization
+│ ├── explain.py # Summary & explanations
+│ └── ocr.py # OCR functionality (Tesseract)
+│── README.md
+|── temp.jpg
+
+
+---
+
+## ⚙️ Setup Instructions
+
+1. **Clone the repository:**
+```bash
 git clone https://github.com/kamalikamnnit/AI-Powered-Medical-Report-Simplifier.git
 cd medical-report-simplifier
 
