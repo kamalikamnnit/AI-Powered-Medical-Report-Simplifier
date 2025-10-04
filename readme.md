@@ -49,7 +49,18 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 uvicorn app:app --reload
 
 The server will run at http://127.0.0.1:8000/
+To test endpoints: use http://127.0.0.1:8000/docs
 
+
+Screenshots showing endpoints
+
+1)
+<img width="1778" height="854" alt="Screenshot 2025-10-04 124005" src="https://github.com/user-attachments/assets/702af5d0-908f-43eb-803e-3b4919cd63f2" />
+shows output for testing text
+
+2)
+<img width="1759" height="829" alt="Screenshot 2025-10-04 124014" src="https://github.com/user-attachments/assets/f4c11d84-8dce-4de2-8be1-abc1e7c560d9" />
+sows output for testing image
 
 🏗️ Architecture
 
