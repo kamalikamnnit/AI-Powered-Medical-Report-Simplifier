@@ -7,14 +7,14 @@ This project is a **FastAPI-based backend** that takes medical reports (text or 
 ## 📂 Project Structure
 
 medical-report-simplifier/
-│── app.py # FastAPI main application
-│── requirements.txt # Python dependencies
-│── utils/
-│ ├── normalize.py # Reference ranges & test normalization
-│ ├── explain.py # Summary & explanations
-│ └── ocr.py # OCR functionality (Tesseract)
-│── README.md
-|── temp.jpg
+├── app.py                     # FastAPI main application
+├── requirements.txt           # Python dependencies (libraries to install)
+├── README.md                  # Project overview and instructions
+├── temp.jpg                   # Temporary file placeholder
+└── utils/
+    ├── normalize.py           # Logic for handling reference ranges and test normalization
+    ├── explain.py             # Logic for generating summary and explanations
+    └── ocr.py                 # Core OCR functionality (using Tesseract)
 
 
 ---
